@@ -66,7 +66,10 @@ public class VideoJuego {
 
     @Override
     public String toString() {
-        return "VideoJuego{" + "codigo=" + codigo + ", nombreJuego=" + nombreJuego + ", consola=" + consola + ", totalJugadores=" + totalJugadores + ", categoria=" + categoria + '}';
+        return "Código = " + codigo 
+                + " - Título = " + nombreJuego + " - Consola = " + consola 
+                + " - #Jugadores = " + totalJugadores 
+                + " - Categoría = " + categoria + '}';
     }
     
     
